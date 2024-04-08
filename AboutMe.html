@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Navigation Page</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+        }
+        nav{
+        display: flex;
+        width: 84%;
+        margin: auto;
+        padding: 20px o;
+        align-items: center;
+        justify-content: space-between;
+       }
+       nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+       }
+       nav ul li a{
+
+        text-decoration: none;
+        color: rgb(44, 36, 44);
+        font-weight: bold;
+       }
+       nav ul li a:hover{
+            color: rgb(188, 123, 123);
+       }
+
+        .content {
+            text-align: left;
+            padding: 20px;
+            display: flex;
+            justify-content:left;
+            align-items: flex-start;
+        }
+        .aboutMe {
+            width: 50%;
+            text-align: left;
+        }
+        
+        footer{
+    background-color: #b7a6a6;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.map{
+    display: flex;
+    justify-content: right;
+}
+.p{
+    text-emphasis-color: white;
+}
+
+        * {
+     box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="./Assets/Images/AndiswaNgwenyalogo.jpeg" alt="Logo" class="logo">
+        `   <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+   
+    <div class="aboutMe">
+        <h1> About Me </h1>
+        
+            <p style="width: 100%;">
+                I am an altruistic, reliable, resilient and adaptive intern with a profound passion for Technology in the software development sector. Throughout my university career I have acquired knowledge in programming in Java, designing websites with HTML and CSS and manipulating/querying databases in SQL. I have been granted a learning opportunity at Mecer Inter-Ed where I have acquired interpersonal skills, programming in C# and an in depth understanding of Microsoft Azure Technologies from the fundamentals to Azure DevOps Associate skills. Nonetheless, I look forward to grasping the opportunity to showcase my skills and being involved in the related industries that remains aligned with my focus on acquiring new skills and learning in new environments.
+
+            </p>
+    </div>
+
+     <footer>
+        <div class = "footerContainer">
+            <div class = "socialIcons">
+                <a href = "https://www.linkedin.com/in/andiswa-ngwenya-2890a51a1/"><i class = "fa-brands fa-linkedin"></i></a>
+                <a href = "mailto:andiswa.ngwenya19@gmail.com"><i class = "fa-brands fa-google-plus"></i></a>
+                <a href="tel:+27 72 649 8711">&#x2706;</a><br>
+                </div>
+        <div class="map">
+            <p>
+                Address 489 Unit c Mankweng 0727
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3648.320441479528!2d29.698386826620133!3d-23.878253248867136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1712533703835!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+        </div>
+         </div>
+     </footer>
+    
+</body>
+</html>
