@@ -271,3 +271,75 @@ footer{
   button:hover {
     background-color: #0056b3;
   }
+
+  #contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Additional styles for the new information */
+.additional_content {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cv_section {
+  flex: 1 1 300px; /* Each section occupies equal space */
+  max-width: 400px; /* Limit the maximum width of each section */
+}
+
+.cv_section h2 {
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.cv_section p,
+.cv_section ul {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.cv_section ul {
+  padding-left: 20px;
+}
+
+.cv_section ul li {
+  margin-bottom: 5px;
+}
+
+.cv_section p:last-child {
+  margin-bottom: 0;
+}
